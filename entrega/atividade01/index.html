@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Gerador de Receita de Bolo</title>
+
+    <style>
+      body {
+        font-family: helvetica, sans-serif;
+        width: 350px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      div {
+        padding-bottom: 20px;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        width: 350px;
+      }
+
+      p {
+        background: #ffc125;
+        color: #5e2612;
+        padding: 10px;
+        visibility: hidden;
+      }
+
+     
+    </style>
+  </head>
+
+  <body>
+    <h1>Gerado de Receita de bolo</h1>
+    <div>
+      <label for="customname">Enter custom name:</label>
+      <input id="customname" type="text" placeholder="Digite o nome do chef de cozinha" />
+    </div>
+    <div>
+      <h2>Sistema de Temperatura</h2>
+      <label for="us">Americano</label
+      ><input id="us" type="radio" name="usBr" value="us" checked />
+      <label for="br">Brasileiro</label
+      ><input id="br" type="radio" name="usBR" value="br" />
+    </div>
+    <div>
+      <button class="randomize">Gerador de receita de bolo aleatória</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story"></p>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
